@@ -36,6 +36,9 @@ public class Janghun {
     Thread t5 = new Thread(run5);
     t5.start();
    
+     Runnable run6 = new ThreadTest(6);    
+    Thread t6 = new Thread(run6);
+    t6.start();
     }
 }
     
