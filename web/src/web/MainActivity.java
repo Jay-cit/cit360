@@ -21,7 +21,7 @@ import android.widget.RadioGroup;
  
 public class MainActivity extends Activity implements
                   RadioGroup.OnCheckedChangeListener {
-         /** Called when the activity is first created. */
+      
          EditText url;
          RadioGroup command1;
          Button load;
@@ -60,7 +60,7 @@ public class MainActivity extends Activity implements
          }
  
          public void onCheckedChanged(RadioGroup group, int checkedId) {
-                  // TODO Auto-generated method stub
+                 
                   switch (checkedId) {
                  
                   case R.id.back2:
